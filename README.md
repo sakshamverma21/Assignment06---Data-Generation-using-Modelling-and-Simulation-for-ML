@@ -52,16 +52,14 @@ Five parameters were varied across 1,000 simulation runs:
 
 | Model | MAE | RMSE | R² Score |
 |-------|-----|------|----------|
-| Linear Regression | [Value] | [Value] | [Value] |
-| Ridge Regression | [Value] | [Value] | [Value] |
-| Lasso Regression | [Value] | [Value] | [Value] |
-| Decision Tree | [Value] | [Value] | [Value] |
-| **Random Forest** | **[Best]** | **[Best]** | **[Best]** |
-| Gradient Boosting | [Value] | [Value] | [Value] |
-| SVR | [Value] | [Value] | [Value] |
-| KNN | [Value] | [Value] | [Value] |
-
-**Note**: Run the notebook to populate actual values.
+| Linear Regression | 19.525 | 27.949 | 0.522 |
+| Ridge Regression | 19.532 | 27.963 | 0.522 |
+| Lasso Regression | 19.784 | 28.602 | 0.500 |
+| Decision Tree | 8.133 | 17.615 | 0.810 |
+| **Random Forest** | **5.634** | **12.117** | **0.910** |
+| Gradient Boosting | 7.873 | 12.448 | 0.905 |
+| SVR | 18.230 | 38.982 | 0.071 |
+| KNN | 11.847 | 19.762 | 0.761 |
 
 ### Best Model: Random Forest Regressor
 
